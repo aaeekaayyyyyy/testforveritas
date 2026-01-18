@@ -1,8 +1,19 @@
 # reverseString
 
-## Partial Documentation
+Reverses a given string character by character.
 
-Reverses a given string.
+### Parameters
+- `input` (String): The string to reverse. Can be null or empty.
 
-### Description
-Takes a string input and returns it in reversed order. Handles null and empty strings gracefully.
+### Returns
+- `String`: The reversed string. Returns the original string if input is null or empty.
+
+### Examples
+```java
+reverseString("hello")  // Returns "olleh"
+reverseString("")       // Returns ""
+reverseString(null)     // Returns null
+```
+
+### Algorithm
+Uses a StringBuilder and iterates through the input string in reverse order.
