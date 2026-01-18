@@ -1,0 +1,14 @@
+{
+  "functions": [
+    {
+      "name": "generateUUID",
+      "description": "Generates a unique identifier",
+      "parameters": []
+    },
+    {
+      "name": "formatCurrency",
+      "description": "Formats a number as currency",
+      "parameters": ["amount", "currencyCode"]
+    }
+  ]
+}
